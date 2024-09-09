@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    /* border: 2px solid blue; */
+    width: 100%;
+
+    
+}
+#bar1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* border: 2px solid red; */
+}
+.toyota {
+    width: 25%;
+    height: 60px;
+    /* border: 2px solid aqua; */
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+
+
+}
+.nav1{
+    width: 70%;
+    height: 50px;
+    /* border: 2px solid yellow; */
+}
+.search{
+    width: 5%;
+    height: 50px;
+    /* border: 2px solid blue; */
+    background-color: red;
+    
+}
+body {
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+  }
+  
+  .active {
+    color: red;
+    border-bottom: 2px solid red;
+  }
+  .carlist{
+    width: 80%;
+    height: 50px;
+    /* border: 2px solid black; */
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 400;
+  }
+  .col {
+    text-align: center;
+    font-weight: 600;
+    font-size: x-large;
+  }
+#carbox{
+    width: 80%;
+    height: 250px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(assets/corolla-400-x-500.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    margin-right: 0%;
+}
+.carcart{
+    width: 50%;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+
+}
+
+.cardsbuttons{
+    width: 100%;
+    height: 320px;
+    background-color: rgb(205, 205, 219);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cds {
+    width: 280px;
+    height: 114px;
+    /* padding: 10px; */
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    color: black;
+}
+.cds1{
+    width: 100px;
+    height: 114px;
+    background-color: black;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cardtext{
+    color: black;
+    padding: 20px;
+    padding-top: 20px;
+    font-size: large;
+}
+
+#c1{
+    background-image: url(assets/crd1.png);
+}
+
+#c2{
+    background-image: url(assets/crd2.png);
+}
+
+#c3{
+    background-image: url(assets/crd3.png);
+}
+
+#c4{
+    background-image: url(assets/crd4.png);
+}
+.slider3 {
+    width: 90%;
+    height: 600px;
+    margin: 0px auto;
+    border: 2px solid green;
+    display: flex;
+}
